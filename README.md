@@ -1,0 +1,2 @@
+# practicum_proposal_template
+This repository contains a comprehensive LaTeX template for data science master's students to develop their practicum proposals following IEEE formatting guidelines. The template is designed to help students create professional, well-structured academic documents that meet the requirements of graduate-level data science programs. With built-in guidance for each section, students can focus on developing substantive content while ensuring all necessary components are properly addressed.
