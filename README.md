@@ -1,12 +1,11 @@
 # Data Science Practicum Proposal Template (IEEE Format)
 
-This repository contains a comprehensive LaTeX template for data science master's students to develop their practicum proposals following IEEE formatting guidelines. The template is designed to help students create professional, well-structured academic documents that meet the requirements of graduate-level data science programs. With built-in guidance for each section, students can focus on developing substantive content while ensuring all necessary components are properly addressed.
+This repository contains a comprehensive LaTeX template for data science master's students to develop their practicum proposals following IEEE formatting guidelines. The template is designed to help students create professional, well-structured academic documents that meet the requirements of graduate-level data science programs. With built-in guidance for each section, students can focus on developing substantive content while properly addressing all necessary components.
 
 ## Purpose
-The primary purpose of this template is to standardize the format and structure of data science practicum proposals, making it easier for students to document their research plans and for faculty to evaluate them. By providing a consistent framework, the template helps ensure that all crucial aspects of a data science project are thoroughly addressed, from problem formulation and literature review to methodology and expected outcomes.
+This template's primary purpose is to standardize the format and structure of data science practicum proposals, making it easier for students to document their research plans and for faculty to evaluate them. By providing a consistent framework, the template helps ensure that all crucial aspects of a data science project are thoroughly addressed, from problem formulation and literature review to methodology and expected outcomes.
 
 ## Template Structure
-
 The template includes the following sections, each with instructional text explaining what content should be included:
 
 1. Abstract: Executive summary of the project (250 words)
@@ -18,6 +17,31 @@ The template includes the following sections, each with instructional text expla
 7. Expected Outcomes: Anticipated results and contributions
 8. Timeline: Project schedule with milestones
 9. Conclusion: Summary of proposal significance
+
+# Example
+
+<a href="https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06">
+  <img src="https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06" width="300"/>
+</a>
+<a href="https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a">
+  <img src="https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a" width="300"/>
+</a>
+<a href="https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895">
+  <img src="https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895" width="300"/>
+</a>
+<a href="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1">
+  <img src="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1" width="300"/>
+</a>
+
+
+![Data_Science_Practicum_Proposal_Template_Page1](https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06)
+![Data_Science_Practicum_Proposal_Template_Page2](https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a)
+![Data_Science_Practicum_Proposal_Template_Page3](https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895)
+![Data_Science_Practicum_Proposal_Template_Page4](https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1)
+
+
+
+
 
 ## Technical Details
 
@@ -51,7 +75,7 @@ The template uses the IEEEtran document class with properly configured packages 
 ## Benefits for Data Science Students
 - Saves time on formatting and structure decisions
 - Ensures all critical components of a practicum proposal are included
-- Provides guidance on content requirements for each section
+- Guides content requirements for each section
 - Offers professional academic formatting compliant with IEEE standards
 - Facilitates proper documentation of data science methodologies
 
