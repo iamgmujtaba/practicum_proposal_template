@@ -33,7 +33,7 @@ The template includes the following sections, each with instructional text expla
   <img src="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1" width="250"/>
 </a>
 
-[**PDF Example**] (https://github.com/iamgmujtaba/practicum_proposal_template/blob/main/Data_Science_Practicum_Proposal_Template.pdf)
+[**PDF Example**](https://github.com/iamgmujtaba/practicum_proposal_template/blob/main/Data_Science_Practicum_Proposal_Template.pdf)
 
 
 
