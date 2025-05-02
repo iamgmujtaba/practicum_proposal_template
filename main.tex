@@ -1,0 +1,189 @@
+% \documentclass[12pt]{article}
+\documentclass[12pt, onecolumn]{IEEEtran}
+\usepackage{color,soul}
+\usepackage{ifpdf}
+
+\usepackage{amsmath}
+\usepackage{algorithmic}
+\usepackage{array}
+\ifCLASSOPTIONcompsoc
+\usepackage[caption=false,font=footnotesize,labelfont=sf,textfont=sf]{subfig}
+\else
+\usepackage[caption=false,font=footnotesize]{subfig}
+\fi
+\usepackage{stfloats}
+\usepackage{url}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\ifCLASSOPTIONcompsoc
+  \usepackage[nocompress]{cite}
+\else
+  \usepackage{cite}
+\fi
+
+
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  \graphicspath{{../pdf/}{../jpeg/}}
+  \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  \usepackage[dvips]{graphicx}
+  \DeclareGraphicsExtensions{.eps}
+\fi
+
+\usepackage{color,soul}
+\graphicspath{{../pdf/}{../jpeg/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage{eqparbox}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\usepackage[caption=false]{subfig}
+\usepackage{booktabs}
+\usepackage{amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{algorithmic}
+\usepackage[]{algorithm2e}
+\usepackage{pifont}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{cite}
+\usepackage[normalem]{ulem} 
+\usepackage{orcidlink}
+\usepackage{longtable}
+
+
+
+
+
+
+
+\begin{document}
+
+\title{Data Science Practicum Proposal LaTeX Template}
+
+\author{Your Full Name \\
+Marketing and Data Science \\
+ABC College \\
+ABC University, Denver, CO, USA \\
+\texttt{youremail@abc.edu}}
+
+
+\maketitle
+
+
+\begin{abstract}
+Your practicum proposal abstract should provide a concise overview (approximately 250 words) of your project's purpose, approach, and its significance and contribution. Summarize the problem being addressed, the data science methods employed, and the anticipated contributions to both academic knowledge and practical applications. This executive summary should effectively communicate the essence of your project, allowing readers to understand its core elements and importance quickly. The abstract serves as the gateway to your proposal and should entice readers to explore the full document.
+\end{abstract}
+
+
+\section{Introduction/Background}
+The introduction establishes context for your practicum project by describing the domain challenge or opportunity that motivates your research. Explain how this project extends beyond standard curriculum requirements and addresses specific knowledge or skill gaps in your data science education. If building upon existing work, briefly outline the current status and progress. Conclude by articulating why this project \textbf{merits full academic credit, emphasizing its complexity, scope}, and alignment with advanced data science practices. This section should effectively communicate both the \textbf{academic value and real-world }significance of your proposed endeavor.
+
+
+
+\section{Problem Statement}
+Articulate precisely the central question or challenge your practicum project addresses. Present a clear, focused problem statement demonstrating the genuine need for data science approaches rather than simpler solutions. Your formulation should explain how the project will engage with \textbf{multiple stages of the data lifecycle}, including collection, preparation, exploration, modeling, visualization, and reporting. Explain the significance of this problem within its broader organizational, industrial, scientific, or societal context. Where possible, quantify the potential impact of successfully addressing this problem to convince readers that your project addresses a substantive challenge worthy of comprehensive data science expertise.
+
+Reference to Figure \ref{fig:statement}. Use (t, h, ht, or !b) positioning figure in different positions.
+
+
+% Example Figure
+\begin{figure}[ht]
+    \centering
+    % \includegraphics[width=0.75\linewidth]{figures/sample.jpg}
+    \includegraphics[width=0.5\linewidth, height=0.5\linewidth]{figures/sample.jpg}
+
+    \caption{Sample figure caption.}
+    \label{fig:statement}
+\end{figure}
+
+
+
+% Example Table
+\begin{table}[ht]
+    \caption{Descriptive Statistics Template}
+    \centering
+    \begin{tabular}{lcc}
+        \hline
+        Variable & Mean & Standard Deviation \\
+        \hline
+        Example 1 & 0.00 & 0.00 \\
+        Example 2 & 0.00 & 0.00 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+% Example of research question formatting:
+\begin{quote}
+\textit{Example of quoted text}
+\end{quote}
+
+\textbf{bold text}, 
+\textit{italic text}, 
+\textbf{\textit{italic and bold text}}, 
+\underline{underlined text}, 
+
+\underline{\textit{italic and underlined text}}, 
+\underline{\textbf{bold and underlined text}}, 
+
+\underline{\textbf{\textit{italic, bold, and underlined text}}}, 
+\texttt{typewriter text}, 
+\emph{emphasized text}, 
+\textsc{small caps text}, 
+{\Large large text} (e.g., large, small, tiny, etc.).
+
+
+
+\section{Related Work \textcolor{red}{Optional}}
+Review existing knowledge relevant to your practicum project by analyzing \textbf{ 3-5 significant works} (academic publications, technical reports, or case studies) that inform your approach. For each reference, establish its connection to your project and explain whether it addresses a similar problem, uses comparable methods, or offers relevant analytical insights. Compare these works with your proposed approach, highlighting their limitations and how your project extends or differs from previous efforts. This analysis demonstrates your familiarity with current knowledge and positions your work within the broader field of data science. Ensure proper citation using BibTeX format (e.g., \cite{dummy2024}) to maintain academic rigor while establishing the novelty of your proposed work. Example of citing multiple works: \cite{doe2023example, SampleRLlib, SampleTensor}.
+
+
+
+\section{Methodology/Approach \textcolor{red}{End of the course}}
+Present a detailed account of your methodological approach, beginning with your overall research design (experimental, observational, or mixed methods). Describe the specific data sources you will utilize, including their nature, scope, format, and acquisition methods. Address potential limitations or biases in these data sources and your mitigation strategies. Outline the \textbf{technical infrastructure, programming languages, software platforms, and specialized libraries you will employ throughout the project}. Detail the analytical techniques you will apply, such as specific \textbf{statistical methods, machine learning algorithms, or visualization approaches}, justifying their appropriateness for your research questions. Include validation strategies, quality control measures, and evaluation metrics that will ensure the rigor of your findings. Your methodology should demonstrate sophisticated understanding of data science practices while establishing a clear, reproducible pathway from raw data to meaningful insights.
+
+\section{Data Description \textcolor{red}{End of the course}}
+Address the critical aspects of data governance, ethics, and responsible research practices guiding your project. Detail your data management plan, including strategies for \textbf{storage, organization, version control, and documentation, to ensure the reproducibility} of your results. Describe your approach to data quality assurance, including methods for \textbf{handling missing values, outliers, and potential biases}. Address ethical dimensions, including privacy considerations, informed consent where applicable, and compliance with relevant regulations such as GDPR or HIPAA. Discuss project-specific ethical challenges such as algorithmic bias or interpretation concerns, along with your planned mitigation strategies. For sensitive or personal data, outline specific safeguards to protect subjects and ensure confidential handling. This section demonstrates your commitment to conducting responsible, ethical data science research, adhering to professional standards and best practices.
+
+
+\section{Expected Outcomes}
+Articulate the anticipated results and contributions of your practicum project, describing the specific insights, \textbf{models, tools, or recommendations you expect to develop}. Explain how these outcomes will address your project objectives and contribute to resolving the problem statement. Discuss both the academic and practical significance of these expected results, highlighting their potential to advance understanding in data science or create value in applied contexts. Consider \textbf{realistic limitations and boundaries} of what your project can achieve, acknowledging areas where future work might be needed. This section should convey a clear vision of success for your project, establishing concrete expectations that align with your research design while demonstrating the meaningful contribution your work will make.
+
+\section{Timeline}
+Present a detailed schedule outlining \textbf{key phases, milestones, and deadlines} for your practicum project. Structure your timeline to reflect the logical progression from initial preparation through data collection, analysis, and final reporting. For each phase, specify the estimated duration, key activities, and dependencies on other project components. Include specific milestones that represent significant progress points, such as completing data acquisition, reviewing preliminary results, or submitting a draft report. Be realistic about time requirements for complex analytical tasks, iterations, and refinements based on initial findings. Ensure your timeline accounts for academic deadlines and includes a sufficient buffer for unexpected challenges. This careful planning demonstrates your project management capabilities and increases confidence in your ability to complete the practicum successfully within the allotted timeframe.
+
+\section{Conclusion \textcolor{red}{End of the course}}
+Provide a synthesizing overview of your practicum proposal that reinforces its significance and coherence. Briefly recapitulate the central problem your project addresses and the key approaches you will employ. Emphasize the \textbf{unique contribution} your work aims to make to both data science as a field and the specific domain or organization involved. Reflect on the educational value of the project, highlighting how it represents the culmination of your data science studies and preparation for professional practice. This section should leave readers with a clear understanding of why your project matters and why you are well-positioned to execute it successfully, serving as a final, compelling argument for the merit and promise of your proposed practicum.
+
+
+\vspace{0.5cm}
+
+\noindent \textbf{Note:} The final practicum report must cover the following components:
+\begin{enumerate}
+  \item Project Title 
+  \item Abstract
+  \item Introduction/Background of the Project
+  \item Problem Statement
+  \item Literature Review/Related Work \textcolor{red}{Optional}
+  % \item Objectives of the Study
+  \item Methodology/Proposed Approach \textcolor{red}{End of the course}
+  \item Data Analysis \textcolor{blue}{Collection/Acquisition, Preparation, EDA, Visualization, Reporting} \textcolor{red}{End of the course}
+  \item Expected Outcomes
+  \item Timeline
+  \item Conclusion \textcolor{red}{End of the course}
+  \item Reference
+\end{enumerate}
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,references}
+
+\end{document}
