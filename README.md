@@ -21,23 +21,18 @@ The template includes the following sections, each with instructional text expla
 # Example
 
 <a href="https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06">
-  <img src="https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06" width="300"/>
+  <img src="https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06" width="250"/>
 </a>
 <a href="https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a">
-  <img src="https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a" width="250"/>
 </a>
 <a href="https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895">
-  <img src="https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895" width="300"/>
+  <img src="https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895" width="250"/>
 </a>
 <a href="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1">
-  <img src="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1" width="300"/>
+  <img src="https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1" width="250"/>
 </a>
 
-
-![Data_Science_Practicum_Proposal_Template_Page1](https://github.com/user-attachments/assets/51d8478e-f9af-436a-bb42-9593ffd3fb06)
-![Data_Science_Practicum_Proposal_Template_Page2](https://github.com/user-attachments/assets/e81cfcdf-b592-43a5-b2cd-570fd8ed578a)
-![Data_Science_Practicum_Proposal_Template_Page3](https://github.com/user-attachments/assets/981f3042-95c6-4be0-910b-993c6f373895)
-![Data_Science_Practicum_Proposal_Template_Page4](https://github.com/user-attachments/assets/64b1ce18-c844-4e89-8916-7f2f293394e1)
 
 
 
